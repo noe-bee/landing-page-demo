@@ -2,21 +2,61 @@
 * {
 	margin: 0;
 	padding: 0;
+	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 /* Element selectors */
 body {
-	background-color: beige;
-	color: brown;
+	background-color: rgb(197, 243, 239);
+	color: rgb(57, 69, 81);
 }
 
 /* Class selectors */
-.bg-green {
-	background-color: forestgreen;
-	color: beige;
+.bg-purple {
+	background-color: rgb(142, 124, 183);
+	color: rgb(215, 236, 249) ;
+	height: 30px
+}
+/*image center*/
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+/*text position*/
+.center-text{
+	text-align: center
+}
+.right-text{
+	text-align: right;
+}
+.text-pad{ /*used this for the links on the header of the page*/
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: underline;
+	padding: 9px;
+
+}
+.rounded-border{
+	border-radius: 25px;
+	border: 2px solid rgb(57, 69, 81);
+	padding: 20px;
+	width: 200px;
+  	height: 150px;
+
 }
 
 /* ID selectors */
 #contact {
-	background-color: lightpink;
+	background-color: rgb(255, 208, 215);
 }
+
+ul {
+	list-style: none; /*this gives no 'dots' or bullets to show within the list*/
+  }
+  
+  li {
+	display: inline-block;
+	margin-right: 10px; /* this adds spacing between items */
+  }
